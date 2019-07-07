@@ -1,0 +1,18 @@
+.main-title::before {
+    content: '';
+    color: red;
+    height: 30px;
+    width: 30px;
+    border: 2px solid red;
+    position: absolute;
+}
+
+.main-title::after {
+    content: '$';
+    color: green;
+}
+
+.main-title {
+    font-size: 70px;
+    position: relative;
+}

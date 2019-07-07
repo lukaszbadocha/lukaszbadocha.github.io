@@ -32,3 +32,22 @@ section a {
 .middle-item ~ li {
     color: orange;
 }
+
+/* Selektor uniwersalny */
+* {
+    border: 2px solid blue;
+    box-sizing: border-box;
+}
+
+/* Selektor łaczony */
+.middle-item.item {
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
